@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(20,38,66);
+    color: rgb(31,214,95);
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+button{
+    height: 2rem;
+    aspect-ratio: 2;
+}
+
+#box{
+    background-color: rgba(31, 214, 95, 0.394);
+    height: 20rem;
+    width: 25rem;
+    color: rgb(20,38,66);
+    font-size: 1.2rem;
+    box-shadow: 0 4px 25px #6A8A94;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#result{
+    display: none;
+}
+
+#result p{
+    font-size: x-large;
+    color: #62caea;
+}
+
+@media screen and (max-width:660px){
+    #box{
+        width: 20rem;
+    }
+}
