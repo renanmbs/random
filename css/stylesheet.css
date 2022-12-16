@@ -34,7 +34,7 @@ button{
     color: #62caea;
 }
 
-@media screen and (max-width:660px){
+@media only screen and (max-width: 600px){
     #box{
         width: 20rem;
     }

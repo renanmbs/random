@@ -10,8 +10,13 @@ function get_numbers(){
     //Generate 5 random numbers
     for(let i = 0; i < 5; i++){
         //Get random numbers up to 100
-        let random = Math.floor(Math.random() * 100);
-        
+        let random = Math.floor(Math.random() * 99);
+
+        //Ignore 0
+        if(random == 0){
+            random = Math.floor(Math.random() * 99);;
+        }
+
         //Push random number
         number_container.push(random);
     }
