@@ -10,11 +10,11 @@ function get_numbers(){
     //Generate 5 random numbers
     for(let i = 0; i < 5; i++){
         //Get random numbers up to 100
-        let random = Math.floor(Math.random() * 99);
+        let random = Math.floor(Math.random() * 70);
 
         //Ignore 0
         if(random == 0){
-            random = Math.floor(Math.random() * 99);
+            random = Math.floor(Math.random() * 70);
         }
 
         //Push random number
@@ -45,7 +45,7 @@ function unique(array){
                         NUMBER[I] PREVIOUS: ${array[i]}`
                         );
 
-            array[i] = Math.floor(Math.random() * 99);
+            array[i] = Math.floor(Math.random() * 70);
 
             console.log(`same number found. 
                         NUMBER[I-1] AFTER: ${array[i-1]}
